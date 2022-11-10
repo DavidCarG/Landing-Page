@@ -1,0 +1,43 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    width:250px;
+    justify-content: space-between;
+}
+
+.intro{
+    display:flex;
+    justify-content: center;
+}
+
+.intro .text{
+    display: flex;
+    flex: 0 1 auto;
+    flex-direction: column;
+    width:500px;
+}
+
+.main-image{
+    height: auto;
+    width: 250px;
+}
+
+.image{
+    height: 160px;
+    width: 160px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
