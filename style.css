@@ -3,10 +3,12 @@ body{
     flex-direction: column;
     row-gap: 29px;
     margin: 0px;
+    align-items: center;
 }
 
 .header{
     display: flex;
+    width: 100%;
     justify-content: space-between;
     padding: 15px;
     margin-bottom: -30px;
@@ -28,6 +30,7 @@ body{
 .intro{
     display:flex;
     justify-content: center;
+    width: 100%;
     align-items: center;
     column-gap: 136px;
     background-color: rgb(7, 90, 7);
@@ -59,7 +62,9 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width:auto;
+    background-color: rgb(230, 218, 218);
+    width: 100%;
+    padding: 40px;
 }
 
 .quote .text{
@@ -89,6 +94,11 @@ body{
     justify-content: center;
     align-items: center;
     column-gap: 115px;
+    background-color: rgb(28, 127, 167);
+    height: 157px;
+    width: 800px;
+    border-radius: 10px;
+    margin: 35px;
 }
 
 .sign-up {
@@ -100,6 +110,7 @@ body{
 .footer{
     height: 60px;
     background-color: green;
+    width: 100%;
 }
 
 
