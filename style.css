@@ -1,17 +1,32 @@
+body{
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
 .header{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding-top: 10px;
+    margin-bottom: -30px;
 }
 
 .links{
     display: flex;
     width:250px;
     justify-content: space-between;
+    margin-right: 220px;
+}
+
+.logo{
+    margin-left: 290px;
 }
 
 .intro{
     display:flex;
     justify-content: center;
+    align-items: center;
+    column-gap: 136px;
 }
 
 .intro .text{
@@ -23,7 +38,7 @@
 
 .main-image{
     height: auto;
-    width: 250px;
+    width: 350px;
 }
 
 .image{
@@ -38,13 +53,43 @@
     width:auto;
 }
 
+.quote .text{
+    text-align: center;
+    width: 300px;
+}
+
 .card{
     display: flex;
     flex-direction: column;
+    align-items: center;
     width: 160px;
+}
+
+.card p{
+    text-align: center;
 }
 
 .cards{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    column-gap: 35px;
 }
+
+.sign-up-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 115px;
+}
+
+.sign-up {
+    height: 30px;
+    width: 70px;
+    margin-bottom: -20px;
+}
+
+.footer{
+    height: 60px;
+    background-color: green;
+}
+
