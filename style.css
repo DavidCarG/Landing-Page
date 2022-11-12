@@ -4,6 +4,7 @@ body{
     row-gap: 29px;
     margin: 0px;
     align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header{
@@ -21,10 +22,13 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-right: 220px;
+    color: #f9faf8;
 }
 
 .logo{
     margin-left: 290px;
+    font-size: 24px;
+    color: #f9faf8;
 }
 
 .intro{
@@ -34,7 +38,7 @@ body{
     align-items: center;
     column-gap: 136px;
     background-color: rgb(7, 90, 7);
-    padding: 20px;
+    padding: 30px;
 }
 
 .intro .text{
@@ -42,6 +46,7 @@ body{
     flex: 0 1 auto;
     flex-direction: column;
     width:500px;
+    color: #f9faf8;
 }
 
 .main-image{
@@ -54,7 +59,7 @@ body{
     width: 160px;
     border-radius: 50px;
     border: 5px;
-    border-color: rgb(139, 240, 139);
+    border-color: rgb(109, 90, 27);
     border-style: solid;
 }
 
@@ -69,7 +74,9 @@ body{
 
 .quote .text{
     text-align: center;
-    width: 300px;
+    font-size: 20px;
+    width: 500px;
+    font-style: italic;
 }
 
 .card{
@@ -99,18 +106,39 @@ body{
     width: 800px;
     border-radius: 10px;
     margin: 35px;
+    color: #f9faf8;
 }
 
 .sign-up {
     height: 30px;
     width: 70px;
     margin-bottom: -20px;
+    border-style: solid;
+    border-color: #f9faf8;
+    border-radius: 5px;
+    color: #f9faf8;
+}
+
+.sign-up-section .sign-up{
+    background-color: rgb(28, 127, 167);
+}
+
+.intro .sign-up{
+    background-color: #C46200;
 }
 
 .footer{
-    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
     background-color: green;
     width: 100%;
+    color: #f9faf8;
+    font-size: 10px;
 }
 
-
+a{
+    text-decoration: none;
+    color: #f9faf8;
+}
